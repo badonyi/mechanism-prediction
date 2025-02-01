@@ -36,7 +36,7 @@ The notebook will generate the following metrics:
 
 <div align="center">
 
-<img src='fig_5.png' style="display: block; margin-left: auto; margin-right: auto;" />
+<img src='fig_5.png' style="display: block; margin-left: auto; margin-right: auto; width: 50%;" />
 
 **Example input/output of the Google Colaboratory notebook.**  
 The notebook predicts molecular mechanisms for missense variants by accepting a gene name or UniProt ID along with a list of comma-separated variants in one-letter notation.
