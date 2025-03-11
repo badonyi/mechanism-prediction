@@ -3,7 +3,7 @@
 A Google Colaboratory notebook to predict molecular disease mechanisms for a group of missense variants
 
 <!-- badges: start -->
-[![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1suWVF6cK_c7bVMQPFue7e9ynlciudUfY?usp=sharing)
+[![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/badonyi/mechanism-prediction/blob/main/mechanism_prediction.ipynb)
 [![DOI:10.1101/2021.01.08.425840](http://img.shields.io/badge/DOI-10.1371/journal.pone.0307312-B31B1B.svg)](https://doi.org/10.1371/journal.pone.0307312)
 [![License](https://img.shields.io/badge/License-MIT-yellow.svg)](https://github.com/badonyi/mechanism-prediction?tab=MIT-1-ov-file)
 <!-- badges: end -->
