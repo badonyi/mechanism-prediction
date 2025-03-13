@@ -1,4 +1,4 @@
-# `mechanism-prediction` <a href='https://colab.research.google.com/drive/1suWVF6cK_c7bVMQPFue7e9ynlciudUfY?usp=sharing'><img src='hexlogo.png' align="right" height="198" /></a>
+# `mechanism-prediction` <a href='https://colab.research.google.com/github/badonyi/mechanism-prediction/blob/main/mechanism_prediction.ipynb'><img src='hexlogo.png' align="right" height="198" /></a>
 
 A Google Colaboratory notebook to predict molecular disease mechanisms for a group of missense variants
 
