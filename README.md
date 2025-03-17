@@ -4,7 +4,7 @@ A Google Colaboratory notebook to predict molecular disease mechanisms for a gro
 
 <!-- badges: start -->
 [![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/badonyi/mechanism-prediction/blob/main/mechanism_prediction.ipynb)
-[![DOI:10.1101/2021.01.08.425840](http://img.shields.io/badge/DOI-10.1371/journal.pone.0307312-B31B1B.svg)](https://doi.org/10.1371/journal.pone.0307312)
+[![DOI:10.1101/2025.03.13.642984v1](https://img.shields.io/badge/DOI-10.1101/2025.03.13.642984v1-B31B1B.svg)](https://doi.org/10.1101/2025.03.13.642984v1)
 [![License](https://img.shields.io/badge/License-MIT-yellow.svg)](https://github.com/badonyi/mechanism-prediction?tab=MIT-1-ov-file)
 <!-- badges: end -->
 
