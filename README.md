@@ -54,7 +54,7 @@ Results include a link to the gene’s AlphaFold model used for EDC calculation,
 
 
 ## How to cite this notebook
-If you find our <code>mechanism-prediction Colab</code> useful, refer to Badonyi & Marsh, *bioRxiv* (2025); DOI: []()
+If you find our <code>mechanism-prediction Colab</code> useful, refer to Badonyi & Marsh, *bioRxiv* (2025); DOI: [2025.03.13.642984v1-B31B1B](https://doi.org/10.1101/2025.03.13.642984)
 
 
 ## Contact
