@@ -4,10 +4,9 @@ A Google Colaboratory notebook to predict molecular disease mechanisms for a gro
 
 <!-- badges: start -->
 [![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/badonyi/mechanism-prediction/blob/main/mechanism_prediction.ipynb)
-[![DOI:10.1101/2025.03.13.642984v1](https://img.shields.io/badge/DOI-10.1101/2025.03.13.642984v1-B31B1B.svg)](https://www.biorxiv.org/content/10.1101/2025.03.13.642984v1)
+[![DOI:10.1038/s41467-025-63234-3](https://img.shields.io/badge/DOI-10.1038/s41467--025--63234--3-B31B1B.svg)](https://doi.org/10.1038/s41467-025-63234-3)
 [![License](https://img.shields.io/badge/License-MIT-yellow.svg)](https://github.com/badonyi/mechanism-prediction?tab=MIT-1-ov-file)
 <!-- badges: end -->
-
 
 ## Description
 Molecular disease mechanisms can be categorised into **loss-of-function** (LOF), **gain-of-function** (GOF), and **dominant-negative** (DN) effects. Disease-associated missense variants that induce such effects have different properties at the protein structural level: LOF mutations tend to be highly damaging and more disperesed in the protein structure, whereas DN and GOF variants are generally milder and more clustered. This Google Colaboratory notebook allows users to input a set of missense variants for a human gene and calculate a missense LOF (mLOF) likelihood score based on the energetic and spatial properties of the variants in AlphaFold-predicted structures. The notebook further provides three posterior mechanism-specific likelihood scores by updating gene-level priors with the mLOF score. This information is then used to suggest a molecular mechanism for the input variants.
@@ -54,7 +53,7 @@ Results include a link to the gene’s AlphaFold model used for EDC calculation,
 
 
 ## How to cite this notebook
-If you find our <code>mechanism-prediction Colab</code> useful, refer to Badonyi & Marsh, *bioRxiv* (2025); DOI: [2025.03.13.642984v1-B31B1B](https://doi.org/10.1101/2025.03.13.642984)
+If you find our <code>mechanism-prediction Colab</code> useful, refer to Badonyi & Marsh, *Nat Commun* (2025); DOI: [10.1038/s41467-025-63234-3](https://doi.org/10.1038/s41467-025-63234-3)
 
 
 ## Contact
