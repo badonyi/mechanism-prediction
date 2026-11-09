@@ -1,3 +1,5 @@
+
+
 # `mechanism-prediction` <a href='https://colab.research.google.com/github/badonyi/mechanism-prediction/blob/main/mechanism_prediction.ipynb'><img src='hexlogo.png' align="right" height="198" /></a>
 
 A Google Colaboratory notebook to predict molecular disease mechanisms for a group of missense variants
@@ -9,13 +11,13 @@ A Google Colaboratory notebook to predict molecular disease mechanisms for a gro
 <!-- badges: end -->
 
 ## Description
-Molecular disease mechanisms can be categorised into **loss-of-function** (LOF), **gain-of-function** (GOF), and **dominant-negative** (DN) effects. Disease-associated missense variants that induce such effects have different properties at the protein structural level: LOF mutations tend to be highly damaging and more disperesed in the protein structure, whereas DN and GOF variants are generally milder and more clustered. This Google Colaboratory notebook allows users to input a set of missense variants for a human gene and calculate a missense LOF (mLOF) likelihood score based on the energetic and spatial properties of the variants in AlphaFold-predicted structures. The notebook further provides three posterior mechanism-specific likelihood scores by updating gene-level priors with the mLOF score. This information is then used to suggest a molecular mechanism for the input variants.
+Molecular disease mechanisms can be categorised into **loss-of-function** (LOF), **gain-of-function** (GOF), and **dominant-negative** (DN) effects. Disease-associated missense variants that induce such effects have different properties at the protein structural level: LOF mutations tend to be highly damaging and more dispersed in the protein structure, whereas DN and GOF variants are generally milder and more clustered. This Google Colaboratory notebook allows users to input a set of missense variants for a human gene and calculate a missense LOF (mLOF) likelihood score based on the energetic and spatial properties of the variants in AlphaFold-predicted structures. The notebook further provides three posterior mechanism-specific likelihood scores by updating gene-level priors with the mLOF score. This information is then used to suggest a molecular mechanism for the input variants.
 
 
 ### Colab input
 - The input requires either a **gene name** or a [**UniProt accession number**](https://www.uniprot.org/help/accession_numbers). For gene names, synonyms may be accepted, *e.g.*, *p53* instead of *TP53*. The notebook will map these to their primary UniProt accession number.
 
-- **Missense-only** variants should be provided as a comma separated list, using the one-letter amino acid variant notation, *e.g.*, A64V. The wild-type residue identity and position should be relative to the sequence of the primary UniProt accession number. Any non-mappig variant will be flagged and brought to the user's attention.
+- **Missense-only** variants should be provided as a comma separated list, using the one-letter amino acid variant notation, *e.g.*, A64V. The wild-type residue identity and position should be relative to the sequence of the primary UniProt accession number. Any non-mapping variant will be flagged and brought to the user's attention.
 
 - The notebook can be run by clicking on the ▶ symbol ("Run cell") in the top left corner of the input box.
 
